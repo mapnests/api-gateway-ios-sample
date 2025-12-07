@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4CA289382DC702A800B2EE23 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4CA289372DC702A300B2EE23 /* .gitignore */; };
-		4CA2893A2DC706F800B2EE23 /*  README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CA289392DC706F500B2EE23 /*  README.md */; };
+		4CA2893A2DC706F800B2EE23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CA289392DC706F500B2EE23 /* README.md */; };
 		C2D335BE2EE54EF200CDEDFC /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D335BD2EE54EF200CDEDFC /* TNApiGetwaySDK.xcframework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		4CA289372DC702A300B2EE23 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		4CA289392DC706F500B2EE23 /*  README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = " README.md"; sourceTree = "<group>"; };
+		4CA289392DC706F500B2EE23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CEBB0C12DC1DFE400FB10F8 /* TNMapSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNMapSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEBB0D12DC1DFE500FB10F8 /* TNMapSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNMapSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEBB0DB2DC1DFE500FB10F8 /* TNMapSDKSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNMapSDKSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				C2D335BD2EE54EF200CDEDFC /* TNApiGetwaySDK.xcframework */,
-				4CA289392DC706F500B2EE23 /*  README.md */,
+				4CA289392DC706F500B2EE23 /* README.md */,
 				4CA289372DC702A300B2EE23 /* .gitignore */,
 				4CEBB0C32DC1DFE400FB10F8 /* TNMapSDKSample */,
 				4CEBB0D42DC1DFE500FB10F8 /* TNMapSDKSampleTests */,
@@ -253,7 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA289382DC702A800B2EE23 /* .gitignore in Resources */,
-				4CA2893A2DC706F800B2EE23 /*  README.md in Resources */,
+				4CA2893A2DC706F800B2EE23 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
