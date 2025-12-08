@@ -25,13 +25,12 @@
     <key>TNApiGetwaySDKConfigFile</key>
     <string>bind-client-config.json</string>
 </dict>
-'''
-
----
+```
 
 #Add your URLProtocol class to URLSession
 
 ```swift
+
     let config = URLSessionConfiguration.default
     config.protocolClasses = [ClientNetworkProtocol.self] // Inject framework headers
     return URLSession(configuration: config)
