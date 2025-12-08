@@ -18,6 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
             withPublicKeyPEM:(NSString *)publicKeyPEM
                         error:(NSError * _Nullable * _Nullable)error;
 
+/// Fetches server time from native C++ implementation
++ (NSTimeInterval)fetchServerTime;
+
 @end
 
 NS_ASSUME_NONNULL_END

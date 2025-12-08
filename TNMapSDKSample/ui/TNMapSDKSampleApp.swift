@@ -13,7 +13,7 @@ struct TNMapSDKSampleApp: App {
         WindowGroup {
             NavigationStack {
                 ContentView()
-                    .navigationTitle("TNMapSDK Demos")
+                    .navigationTitle("API Gatway SDK Demos")
             }
         }
     }
@@ -30,7 +30,7 @@ struct ContentView: View {
 
                 // NavigationLink buttons
                 NavigationLink(destination: APIURIProtocalDemoWrapper()) { // fixed typo
-                    Text("API URI Protocol Demo")
+                    Text("API Gatway SDK Demo")
                         .font(.headline)
                         .padding()
                         .frame(maxWidth: .infinity)

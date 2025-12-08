@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Kronos",
+        "printedName": "Kronos",
+        "declKind": "Import",
+        "moduleName": "TNApiGetwaySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FrameworkConfig",
         "printedName": "FrameworkConfig",
@@ -318,6 +325,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Kronos",
+        "printedName": "Kronos",
+        "declKind": "Import",
+        "moduleName": "TNApiGetwaySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FrameworkProtocol",
         "printedName": "FrameworkProtocol",
@@ -592,6 +606,117 @@
             "mangledName": "$ss16SendableMetatypeP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Kronos",
+        "printedName": "Kronos",
+        "declKind": "Import",
+        "moduleName": "TNApiGetwaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TimeProvider",
+        "printedName": "TimeProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TimeProvider",
+                "printedName": "TNApiGetwaySDK.TimeProvider",
+                "usr": "s:14TNApiGetwaySDK12TimeProviderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TNApiGetwaySDK12TimeProviderC6sharedACvpZ",
+            "mangledName": "$s14TNApiGetwaySDK12TimeProviderC6sharedACvpZ",
+            "moduleName": "TNApiGetwaySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeProvider",
+                    "printedName": "TNApiGetwaySDK.TimeProvider",
+                    "usr": "s:14TNApiGetwaySDK12TimeProviderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TNApiGetwaySDK12TimeProviderC6sharedACvgZ",
+                "mangledName": "$s14TNApiGetwaySDK12TimeProviderC6sharedACvgZ",
+                "moduleName": "TNApiGetwaySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "currentTimestamp",
+            "printedName": "currentTimestamp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TNApiGetwaySDK12TimeProviderC16currentTimestampSiyF",
+            "mangledName": "$s14TNApiGetwaySDK12TimeProviderC16currentTimestampSiyF",
+            "moduleName": "TNApiGetwaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14TNApiGetwaySDK12TimeProviderC",
+        "mangledName": "$s14TNApiGetwaySDK12TimeProviderC",
+        "moduleName": "TNApiGetwaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -600,14 +725,14 @@
     {
       "filePath": "\/Users\/technonext\/tn\/vcs\/api-gatway-ios-library \/TNApiGetwaySDK\/FrameworkConfig.swift",
       "kind": "Dictionary",
-      "offset": 223,
+      "offset": 237,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/technonext\/tn\/vcs\/api-gatway-ios-library \/TNApiGetwaySDK\/FrameworkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 260,
+      "offset": 274,
       "length": 4,
       "value": "true"
     }

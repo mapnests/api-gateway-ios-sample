@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios18.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TNApiGetwaySDK
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import Foundation
+import Kronos
 import Swift
 @_exported import TNApiGetwaySDK
 import UIKit
@@ -23,5 +24,10 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public init(request: Foundation.URLRequest, cachedResponse: Foundation.CachedURLResponse?, client: (any Foundation.URLProtocolClient)?)
   #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TimeProvider {
+  public static let shared: TNApiGetwaySDK.TimeProvider
+  public func currentTimestamp() -> Swift.Int
   @objc deinit
 }
