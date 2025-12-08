@@ -110,6 +110,7 @@ class APIURIProtocalDemo: UIViewController {
 
     // MARK: - Logging Helper
     private func appendLog(_ text: String) {
+        print(text)
         DispatchQueue.main.async {
             let newText = (self.logTextView.text ?? "") + text + "\n\n"
             self.logTextView.text = newText
