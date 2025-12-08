@@ -47,22 +47,31 @@ class ClientNetworkProtocol: URLProtocol {
 
         let task = session.dataTask(with: modifiedRequest as URLRequest) { data, response, error in
 
+            // Log the request
+
+            print("🔹 ClientNetworkProtocol: Headers -> \(modifiedRequest.allHTTPHeaderFields ?? [:])")
+
             if let response = response {
+                print("🔹 ClientNetworkProtocol: Response -> \(response)")
                 self.client?.urlProtocol(self, didReceive: response, cacheStoragePolicy: .notAllowed)
             }
 
             if let data = data {
+                if let str = String(data: data, encoding: .utf8) {
+                    print("🔹 ClientNetworkProtocol: Response Data -> \(str)")
+                }
                 self.client?.urlProtocol(self, didLoad: data)
             }
 
             if let error = error {
+                print("🔹 ClientNetworkProtocol: Error -> \(error.localizedDescription)")
                 self.client?.urlProtocol(self, didFailWithError: error)
             }
 
             self.client?.urlProtocolDidFinishLoading(self)
         }
-
         task.resume()
+
     }
 
     override func stopLoading() {}
