@@ -733,8 +733,8 @@
       "filePath": "\/Users\/technonext\/tn\/vcs\/api-gatway-ios-library \/TNApiGetwaySDK\/FrameworkConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 274,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     }
   ]
 }
