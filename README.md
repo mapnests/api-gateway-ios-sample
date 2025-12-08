@@ -1,70 +1,146 @@
-# TNApiGetwaySDK.xcframework SDK Documentation (v1.0.0)
+# API Gateway SDK Integration
 
-## API Registration & Authentication
+## Changelog (v1.0.0)
+- Initial integration of the API Gateway SDK.
+- 
 
-### Step 1: Register for API Access
+---
 
-**Endpoint:** `https://console.mapnests.com/sign-up`
+## Onboarding Process
+1. Send email to `apigw@technonext.com` to get `bind_client_config.json`. 
+2. Place `bind_client_config.json` in the **root directory** of your project.
+3. Add `.TNApiGetwaySDK.xcframework` to your project via drag & drop.
+4. Add Kronos 4.4 using Swift Package Manager:  
+   `https://github.com/MobileNativeFoundation/Kronos.git`
 
-- Create an account and register for API access.
-
-### Step 2: Login to Dashboard
-
-**Endpoint:** `https://console.mapnests.com/sign-in`
-
-- Use your credentials to log in and manage your projects.
+---
 
 ## Project Setup
 
-### Step 1: Create a Project
+### Root `add TNApiGetwaySDKConfigFile under your  Info.plist`
 
-1. Log in to the TNMaps Dashboard.
-2. Navigate to the dashboard.
-3. Go to the **Projects** section.
-4. Click on **"Create Project"**.
-5. Provide a **Project Name** and **Project Description**.
-6. After project creation, go to the **details section**.
-7. In the **Android Section**, add your **Package Name** and **SHA256 fingerprint**.
-8. Once successfully created, you will receive an **API Key**.
+```xml
 
+<dict>
+    <key>TNApiGetwaySDKConfigFile</key>
+    <string>bind-client-config.json</string>
+</dict>
+'''
 
-### Step 2: Add Dependencies
+---
 
-1. Copy the `TNMapSDK.xcframework` to your Xcode project directory.
-
-2. In Xcode, drag and drop the `TNMapSDK.xcframework` into the "Frameworks" section of your Xcode project.
-                            
-## Step 3: Embed & Sign the Framework
-1. In your Xcode project, select your target and navigate to the **General** tab.
-
-2. Under **Frameworks, Libraries, and Embedded Content**, click the "+" button.
-
-3. Choose `TNMapSDK.xcframework` from the list, and set the embedding option to **Embed & Sign**.
-
-
-### Step 4: Configure Your Project
-
-Replace placeholders with your actual **Package Name** and **API Key**:
-Modify your project to include the API key and package name.
-
- **Example (inside DemoDistanceMatrixAPIContentView, DemoDistanceMatrixDetailsAPIContentView, DemoGeocodeContentView, DemoReverseGeocodeContentView.swift):**
+#Add your URLProtocol class to URLSession
 
 ```swift
-  let apiKey = ""
-  let packageName = ""
+    let config = URLSessionConfiguration.default
+    config.protocolClasses = [ClientNetworkProtocol.self] // Inject framework headers
+    return URLSession(configuration: config)
+                
+```
+        
+        
+#Example
+class ClientNetworkProtocol: URLProtocol {
+
+    override class func canInit(with request: URLRequest) -> Bool {
+        if URLProtocol.property(forKey: "ClientHandled", in: request) != nil {
+            return false
+        }
+        return true
+    }
+
+    override class func canonicalRequest(for request: URLRequest) -> URLRequest {
+        return request
+    }
+
+    override func startLoading() {
+
+        guard let modifiedRequest = (request as NSURLRequest).mutableCopy() as? NSMutableURLRequest else {
+            return
+        }
+
+        URLProtocol.setProperty(true, forKey: "ClientHandled", in: modifiedRequest)
+
+        modifiedRequest.setValue("global-level-value-1", forHTTPHeaderField: "global-level-header-1")
+        modifiedRequest.setValue("global-level-value-2", forHTTPHeaderField: "global-level-header-2")
+
+        let config = URLSessionConfiguration.default
+        config.protocolClasses = [
+            ClientNetworkProtocol.self,
+            FrameworkProtocol.self
+        ]
+
+        let session = URLSession(configuration: config)
+
+        let task = session.dataTask(with: modifiedRequest as URLRequest) { data, response, error in
+
+            if let response = response {
+                self.client?.urlProtocol(self, didReceive: response, cacheStoragePolicy: .notAllowed)
+            }
+
+            if let data = data {
+                self.client?.urlProtocol(self, didLoad: data)
+            }
+
+            if let error = error {
+                self.client?.urlProtocol(self, didFailWithError: error)
+            }
+
+            self.client?.urlProtocolDidFinishLoading(self)
+        }
+
+        task.resume()
+    }
+
+    override func stopLoading() {}
+}
+
+Check full exmaple under APIURIProtocalDemo.swift
+
+
+
+## Request
+```json
+{
+  "method": "GET",
+  "url": "http://192.168.61.103:9080/load-test/api/auth-casbin-success-plugin-test",
+  "timestamp": "2025-12-07 15:51:32.497",
+  "headers": {
+    "Client-Header-Name1": "xxxxxx",
+    "Client-Header-Name2": "yyyyyy",
+    "x-client-identity": "KlD0r8ocjAqEbzeEqiQYeycvIKuKimA6btcfgGqUcDo1DXOBR8M+z6XKwa/uP0ee1H4Di53awaeZrh8vsbd6H0RSTs+By0cmSl6XROCpupDPdPfT78cCchjF+LC7oCFbnztVAPXKhTercr2zcRE7uLQA1Yfmx7xbinYGrFCud0fZbdqYWLp6i9sycXQjvVFpw7G2bz2x2IWNY/SzhWuSU31rnjpZMdI0RLNy/zUu2awj5LBmO0zk0cRYTnhWnZLCmbCiuu0I+Ag6UJm/H9hqJecB59NmTyqWUzRK/tUNnpcQhC2WGneyb9gAa25mfQ1xcYYL7WWk5Xc1ci5nx3/alQ==",
+    "x-key-identity": "596119440572023487"
+  },
+  "request_id": "1765101092497"
+}
 ```
 
-## Example Usage of TNMaps SDK
+## Response
+```json
+{
+  "status": 200,
+  "timestamp": "2025-12-07 15:51:32.673",
+  "headers": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "Date": "Sun, 07 Dec 2025 09:51:31 GMT",
+    "Server": "APISIX/3.14.1",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "message": "Auth Casbin plugin test api call succeed"
+  },
+  "response_id": "177"
+}
+```
 
+## Developer Notes
+- Keep package names consistent between JSON and Gradle.
 
-
-## Notes & Best Practices
-
-- Ensure **API Key** is correctly configured in `DistanceMatrixActivity`.
-- Use a **valid Package Name** & **SHA256 Fingerprint** in the TNMaps dashboard.
-- Test with different locations to verify SDK responses.
-- Log errors for debugging SDK failures.
+---
 
 ## Support
 
-For any issues or support, contact the **TNMaps team** or refer to the official documentation.
+For issues or feature requests contact us through email: `apigw@technonext.com`
+
+---
