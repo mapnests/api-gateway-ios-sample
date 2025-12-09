@@ -11,10 +11,10 @@
 		4CA2893A2DC706F800B2EE23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CA289392DC706F500B2EE23 /* README.md */; };
 		C2D335432EE163CD00CDEDFC /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C2D335422EE163CD00CDEDFC /* bind-client-config.json */; };
 		C2D336252EE6AFA600CDEDFC /* Kronos in Frameworks */ = {isa = PBXBuildFile; productRef = C2D336242EE6AFA600CDEDFC /* Kronos */; };
-		C2F7E7B22EE82E4B00330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B02EE82E4B00330F13 /* TNApiGetwaySDK.xcframework */; };
-		C2F7E7B32EE82E4B00330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B02EE82E4B00330F13 /* TNApiGetwaySDK.xcframework */; };
-		C2F7E7B42EE82F2F00330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B02EE82E4B00330F13 /* TNApiGetwaySDK.xcframework */; };
-		C2F7E7B52EE82F2F00330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B02EE82E4B00330F13 /* TNApiGetwaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C2F7E7B72EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; };
+		C2F7E7B92EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; };
+		C2F7E7BA2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; };
+		C2F7E7BB2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C2F7E7B52EE82F2F00330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */,
+				C2F7E7BB2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +55,7 @@
 		4CEBB0D12DC1DFE500FB10F8 /* TNApiGatwaySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNApiGatwaySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEBB0DB2DC1DFE500FB10F8 /* TNApiGatwaySampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNApiGatwaySampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D335422EE163CD00CDEDFC /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
-		C2F7E7B02EE82E4B00330F13 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
+		C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F7E7B42EE82F2F00330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
+				C2F7E7BA2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
 				C2D336252EE6AFA600CDEDFC /* Kronos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F7E7B32EE82E4B00330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
+				C2F7E7B72EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F7E7B22EE82E4B00330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
+				C2F7E7B92EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 		4CEBB0B82DC1DFE400FB10F8 = {
 			isa = PBXGroup;
 			children = (
-				C2F7E7B02EE82E4B00330F13 /* TNApiGetwaySDK.xcframework */,
+				C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */,
 				C2D335422EE163CD00CDEDFC /* bind-client-config.json */,
 				4CA289392DC706F500B2EE23 /* README.md */,
 				4CA289372DC702A300B2EE23 /* .gitignore */,

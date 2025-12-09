@@ -9,10 +9,19 @@
 ## Onboarding Process
 1. Send email to `apigw@technonext.com` to get `bind_client_config.json`. 
 2. Place `bind_client_config.json` in the **root directory** of your project.
-3. Add `.TNApiGetwaySDK.xcframework` to your project via drag & drop.
-4. Add Kronos 4.4 using Swift Package Manager:  
-   `https://github.com/MobileNativeFoundation/Kronos.git`
 
+
+### 2. Configure Build Settings
+
+1. Drag and drop the `TNApiGetwaySDK.xcframework` into your project’s **Project Navigator** (e.g., into a `Frameworks` group). 
+2. Add Kronos 4.4 using Swift Package Manager:  `https://github.com/MobileNativeFoundation/Kronos.git`
+2. Select your project in Xcode → **Target** → **General** tab.
+3. Scroll down to **Frameworks, Libraries, and Embedded Content**.
+4. Click the **+** button → Add `TNApiGetwaySDK.xcframework`.
+5. Set **Embed** to **Embed & Sign**.
+   
+   
+   
 ---
 
 ## Project Setup
