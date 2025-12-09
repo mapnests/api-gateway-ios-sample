@@ -7,41 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CA289382DC702A800B2EE23 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4CA289372DC702A300B2EE23 /* .gitignore */; };
-		4CA2893A2DC706F800B2EE23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CA289392DC706F500B2EE23 /* README.md */; };
-		C2D335432EE163CD00CDEDFC /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C2D335422EE163CD00CDEDFC /* bind-client-config.json */; };
-		C2D336252EE6AFA600CDEDFC /* Kronos in Frameworks */ = {isa = PBXBuildFile; productRef = C2D336242EE6AFA600CDEDFC /* Kronos */; };
-		C2F7E7B72EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; };
-		C2F7E7B92EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; };
-		C2F7E7BA2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; };
-		C2F7E7BB2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C2F7E97D2EE8574700330F13 /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C2F7E97C2EE8574700330F13 /* bind-client-config.json */; };
+		C2F7E97E2EE8575400330F13 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E97A2EE8573100330F13 /* TNApiGetwaySDK.xcframework */; };
+		C2F7E97F2EE8575400330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7E97A2EE8573100330F13 /* TNApiGetwaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C2F7E98E2EE8585800330F13 /* Kronos in Frameworks */ = {isa = PBXBuildFile; productRef = C2F7E98D2EE8585800330F13 /* Kronos */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4CEBB0D22DC1DFE500FB10F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CEBB0B92DC1DFE400FB10F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CEBB0C02DC1DFE400FB10F8;
-			remoteInfo = TNMapSDKSample;
-		};
-		4CEBB0DC2DC1DFE500FB10F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CEBB0B92DC1DFE400FB10F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CEBB0C02DC1DFE400FB10F8;
-			remoteInfo = TNMapSDKSample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		4CA2891C2DC2B8CC00B2EE23 /* Embed Frameworks */ = {
+		C2F7E9802EE8575400330F13 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C2F7E7BB2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */,
+				C2F7E97F2EE8575400330F13 /* TNApiGetwaySDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,95 +28,59 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4CA289372DC702A300B2EE23 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		4CA289392DC706F500B2EE23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4CEBB0C12DC1DFE400FB10F8 /* TNApiGatwaySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNApiGatwaySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CEBB0D12DC1DFE500FB10F8 /* TNApiGatwaySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNApiGatwaySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CEBB0DB2DC1DFE500FB10F8 /* TNApiGatwaySampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNApiGatwaySampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2D335422EE163CD00CDEDFC /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
-		C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
+		C2F7E9562EE8567500330F13 /* TNApiGatwaySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNApiGatwaySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F7E97A2EE8573100330F13 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
+		C2F7E97C2EE8574700330F13 /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C2D335472EE1655300CDEDFC /* Exceptions for "TNMapSDKSample" folder in "TNApiGatwaySample" target */ = {
+		C2F7E9822EE857A600330F13 /* Exceptions for "TNApiGatwaySample" folder in "TNApiGatwaySample" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 4CEBB0C02DC1DFE400FB10F8 /* TNApiGatwaySample */;
+			target = C2F7E9552EE8567500330F13 /* TNApiGatwaySample */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4CEBB0C32DC1DFE400FB10F8 /* TNMapSDKSample */ = {
+		C2F7E9582EE8567500330F13 /* TNApiGatwaySample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C2D335472EE1655300CDEDFC /* Exceptions for "TNMapSDKSample" folder in "TNApiGatwaySample" target */,
+				C2F7E9822EE857A600330F13 /* Exceptions for "TNApiGatwaySample" folder in "TNApiGatwaySample" target */,
 			);
-			path = TNMapSDKSample;
-			sourceTree = "<group>";
-		};
-		4CEBB0D42DC1DFE500FB10F8 /* TNMapSDKSampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TNMapSDKSampleTests;
-			sourceTree = "<group>";
-		};
-		4CEBB0DE2DC1DFE500FB10F8 /* TNMapSDKSampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TNMapSDKSampleUITests;
+			path = TNApiGatwaySample;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CEBB0BE2DC1DFE400FB10F8 /* Frameworks */ = {
+		C2F7E9532EE8567500330F13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F7E7BA2EE832E700330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
-				C2D336252EE6AFA600CDEDFC /* Kronos in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CEBB0CE2DC1DFE500FB10F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2F7E7B72EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CEBB0D82DC1DFE500FB10F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2F7E7B92EE832E000330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
+				C2F7E98E2EE8585800330F13 /* Kronos in Frameworks */,
+				C2F7E97E2EE8575400330F13 /* TNApiGetwaySDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4CEBB0B82DC1DFE400FB10F8 = {
+		C2F7E94D2EE8567500330F13 = {
 			isa = PBXGroup;
 			children = (
-				C2F7E7B62EE832E000330F13 /* TNApiGetwaySDK.xcframework */,
-				C2D335422EE163CD00CDEDFC /* bind-client-config.json */,
-				4CA289392DC706F500B2EE23 /* README.md */,
-				4CA289372DC702A300B2EE23 /* .gitignore */,
-				4CEBB0C32DC1DFE400FB10F8 /* TNMapSDKSample */,
-				4CEBB0D42DC1DFE500FB10F8 /* TNMapSDKSampleTests */,
-				4CEBB0DE2DC1DFE500FB10F8 /* TNMapSDKSampleUITests */,
-				4CEBB0C22DC1DFE400FB10F8 /* Products */,
+				C2F7E97C2EE8574700330F13 /* bind-client-config.json */,
+				C2F7E97A2EE8573100330F13 /* TNApiGetwaySDK.xcframework */,
+				C2F7E9582EE8567500330F13 /* TNApiGatwaySample */,
+				C2F7E9572EE8567500330F13 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4CEBB0C22DC1DFE400FB10F8 /* Products */ = {
+		C2F7E9572EE8567500330F13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CEBB0C12DC1DFE400FB10F8 /* TNApiGatwaySample.app */,
-				4CEBB0D12DC1DFE500FB10F8 /* TNApiGatwaySampleTests.xctest */,
-				4CEBB0DB2DC1DFE500FB10F8 /* TNApiGatwaySampleUITests.xctest */,
+				C2F7E9562EE8567500330F13 /* TNApiGatwaySample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,166 +88,80 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CEBB0C02DC1DFE400FB10F8 /* TNApiGatwaySample */ = {
+		C2F7E9552EE8567500330F13 /* TNApiGatwaySample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CEBB0E52DC1DFE500FB10F8 /* Build configuration list for PBXNativeTarget "TNApiGatwaySample" */;
+			buildConfigurationList = C2F7E9612EE8567800330F13 /* Build configuration list for PBXNativeTarget "TNApiGatwaySample" */;
 			buildPhases = (
-				4CEBB0BD2DC1DFE400FB10F8 /* Sources */,
-				4CEBB0BE2DC1DFE400FB10F8 /* Frameworks */,
-				4CEBB0BF2DC1DFE400FB10F8 /* Resources */,
-				4CA2891C2DC2B8CC00B2EE23 /* Embed Frameworks */,
+				C2F7E9522EE8567500330F13 /* Sources */,
+				C2F7E9532EE8567500330F13 /* Frameworks */,
+				C2F7E9542EE8567500330F13 /* Resources */,
+				C2F7E9802EE8575400330F13 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4CEBB0C32DC1DFE400FB10F8 /* TNMapSDKSample */,
+				C2F7E9582EE8567500330F13 /* TNApiGatwaySample */,
 			);
 			name = TNApiGatwaySample;
 			packageProductDependencies = (
-				C2D336242EE6AFA600CDEDFC /* Kronos */,
+				C2F7E98D2EE8585800330F13 /* Kronos */,
 			);
-			productName = TNMapSDKSample;
-			productReference = 4CEBB0C12DC1DFE400FB10F8 /* TNApiGatwaySample.app */;
+			productName = TNApiGatwaySample;
+			productReference = C2F7E9562EE8567500330F13 /* TNApiGatwaySample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4CEBB0D02DC1DFE500FB10F8 /* TNApiGatwaySampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CEBB0E82DC1DFE500FB10F8 /* Build configuration list for PBXNativeTarget "TNApiGatwaySampleTests" */;
-			buildPhases = (
-				4CEBB0CD2DC1DFE500FB10F8 /* Sources */,
-				4CEBB0CE2DC1DFE500FB10F8 /* Frameworks */,
-				4CEBB0CF2DC1DFE500FB10F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CEBB0D32DC1DFE500FB10F8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4CEBB0D42DC1DFE500FB10F8 /* TNMapSDKSampleTests */,
-			);
-			name = TNApiGatwaySampleTests;
-			packageProductDependencies = (
-			);
-			productName = TNMapSDKSampleTests;
-			productReference = 4CEBB0D12DC1DFE500FB10F8 /* TNApiGatwaySampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4CEBB0DA2DC1DFE500FB10F8 /* TNApiGatwaySampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CEBB0EB2DC1DFE500FB10F8 /* Build configuration list for PBXNativeTarget "TNApiGatwaySampleUITests" */;
-			buildPhases = (
-				4CEBB0D72DC1DFE500FB10F8 /* Sources */,
-				4CEBB0D82DC1DFE500FB10F8 /* Frameworks */,
-				4CEBB0D92DC1DFE500FB10F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CEBB0DD2DC1DFE500FB10F8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4CEBB0DE2DC1DFE500FB10F8 /* TNMapSDKSampleUITests */,
-			);
-			name = TNApiGatwaySampleUITests;
-			packageProductDependencies = (
-			);
-			productName = TNMapSDKSampleUITests;
-			productReference = 4CEBB0DB2DC1DFE500FB10F8 /* TNApiGatwaySampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4CEBB0B92DC1DFE400FB10F8 /* Project object */ = {
+		C2F7E94E2EE8567500330F13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1610;
+				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					4CEBB0C02DC1DFE400FB10F8 = {
-						CreatedOnToolsVersion = 16.1;
-					};
-					4CEBB0D02DC1DFE500FB10F8 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 4CEBB0C02DC1DFE400FB10F8;
-					};
-					4CEBB0DA2DC1DFE500FB10F8 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 4CEBB0C02DC1DFE400FB10F8;
+					C2F7E9552EE8567500330F13 = {
+						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 4CEBB0BC2DC1DFE400FB10F8 /* Build configuration list for PBXProject "TNApiGatwaySample" */;
+			buildConfigurationList = C2F7E9512EE8567500330F13 /* Build configuration list for PBXProject "TNApiGatwaySample" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4CEBB0B82DC1DFE400FB10F8;
+			mainGroup = C2F7E94D2EE8567500330F13;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				C2D336232EE6AFA600CDEDFC /* XCRemoteSwiftPackageReference "Kronos" */,
+				C2F7E98C2EE8585800330F13 /* XCRemoteSwiftPackageReference "Kronos" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4CEBB0C22DC1DFE400FB10F8 /* Products */;
+			productRefGroup = C2F7E9572EE8567500330F13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CEBB0C02DC1DFE400FB10F8 /* TNApiGatwaySample */,
-				4CEBB0D02DC1DFE500FB10F8 /* TNApiGatwaySampleTests */,
-				4CEBB0DA2DC1DFE500FB10F8 /* TNApiGatwaySampleUITests */,
+				C2F7E9552EE8567500330F13 /* TNApiGatwaySample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4CEBB0BF2DC1DFE400FB10F8 /* Resources */ = {
+		C2F7E9542EE8567500330F13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA289382DC702A800B2EE23 /* .gitignore in Resources */,
-				C2D335432EE163CD00CDEDFC /* bind-client-config.json in Resources */,
-				4CA2893A2DC706F800B2EE23 /* README.md in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CEBB0CF2DC1DFE500FB10F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CEBB0D92DC1DFE500FB10F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C2F7E97D2EE8574700330F13 /* bind-client-config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CEBB0BD2DC1DFE400FB10F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CEBB0CD2DC1DFE500FB10F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CEBB0D72DC1DFE500FB10F8 /* Sources */ = {
+		C2F7E9522EE8567500330F13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,21 +170,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4CEBB0D32DC1DFE500FB10F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CEBB0C02DC1DFE400FB10F8 /* TNApiGatwaySample */;
-			targetProxy = 4CEBB0D22DC1DFE500FB10F8 /* PBXContainerItemProxy */;
-		};
-		4CEBB0DD2DC1DFE500FB10F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CEBB0C02DC1DFE400FB10F8 /* TNApiGatwaySample */;
-			targetProxy = 4CEBB0DC2DC1DFE500FB10F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		4CEBB0E32DC1DFE500FB10F8 /* Debug */ = {
+		C2F7E95F2EE8567800330F13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,19 +224,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		4CEBB0E42DC1DFE500FB10F8 /* Release */ = {
+		C2F7E9602EE8567800330F13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -439,178 +280,120 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4CEBB0E62DC1DFE500FB10F8 /* Debug */ = {
+		C2F7E9622EE8567800330F13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TNMapSDKSample/Preview Content\"";
+				DEVELOPMENT_TEAM = Q79L49XN4F;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TNMapSDKSample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_FILE = TNApiGatwaySample/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilebd.map.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Debug;
 		};
-		4CEBB0E72DC1DFE500FB10F8 /* Release */ = {
+		C2F7E9632EE8567800330F13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TNMapSDKSample/Preview Content\"";
+				DEVELOPMENT_TEAM = Q79L49XN4F;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TNMapSDKSample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_FILE = TNApiGatwaySample/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilebd.map.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4CEBB0E92DC1DFE500FB10F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = technonext.TNMapSDKSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNApiGatwaySample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TNApiGatwaySample";
-			};
-			name = Debug;
-		};
-		4CEBB0EA2DC1DFE500FB10F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = technonext.TNMapSDKSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNApiGatwaySample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TNApiGatwaySample";
-			};
-			name = Release;
-		};
-		4CEBB0EC2DC1DFE500FB10F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = technonext.TNMapSDKSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TNMapSDKSample;
-			};
-			name = Debug;
-		};
-		4CEBB0ED2DC1DFE500FB10F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = technonext.TNMapSDKSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TNMapSDKSample;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CEBB0BC2DC1DFE400FB10F8 /* Build configuration list for PBXProject "TNApiGatwaySample" */ = {
+		C2F7E9512EE8567500330F13 /* Build configuration list for PBXProject "TNApiGatwaySample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CEBB0E32DC1DFE500FB10F8 /* Debug */,
-				4CEBB0E42DC1DFE500FB10F8 /* Release */,
+				C2F7E95F2EE8567800330F13 /* Debug */,
+				C2F7E9602EE8567800330F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CEBB0E52DC1DFE500FB10F8 /* Build configuration list for PBXNativeTarget "TNApiGatwaySample" */ = {
+		C2F7E9612EE8567800330F13 /* Build configuration list for PBXNativeTarget "TNApiGatwaySample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CEBB0E62DC1DFE500FB10F8 /* Debug */,
-				4CEBB0E72DC1DFE500FB10F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CEBB0E82DC1DFE500FB10F8 /* Build configuration list for PBXNativeTarget "TNApiGatwaySampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CEBB0E92DC1DFE500FB10F8 /* Debug */,
-				4CEBB0EA2DC1DFE500FB10F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CEBB0EB2DC1DFE500FB10F8 /* Build configuration list for PBXNativeTarget "TNApiGatwaySampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CEBB0EC2DC1DFE500FB10F8 /* Debug */,
-				4CEBB0ED2DC1DFE500FB10F8 /* Release */,
+				C2F7E9622EE8567800330F13 /* Debug */,
+				C2F7E9632EE8567800330F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -618,7 +401,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C2D336232EE6AFA600CDEDFC /* XCRemoteSwiftPackageReference "Kronos" */ = {
+		C2F7E98C2EE8585800330F13 /* XCRemoteSwiftPackageReference "Kronos" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MobileNativeFoundation/Kronos.git";
 			requirement = {
@@ -629,12 +412,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C2D336242EE6AFA600CDEDFC /* Kronos */ = {
+		C2F7E98D2EE8585800330F13 /* Kronos */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C2D336232EE6AFA600CDEDFC /* XCRemoteSwiftPackageReference "Kronos" */;
+			package = C2F7E98C2EE8585800330F13 /* XCRemoteSwiftPackageReference "Kronos" */;
 			productName = Kronos;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 4CEBB0B92DC1DFE400FB10F8 /* Project object */;
+	rootObject = C2F7E94E2EE8567500330F13 /* Project object */;
 }
