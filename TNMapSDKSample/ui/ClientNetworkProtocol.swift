@@ -7,6 +7,7 @@
 
 import Foundation
 import TNApiGetwaySDK
+import Kronos
 
 class ClientNetworkProtocol: URLProtocol {
 

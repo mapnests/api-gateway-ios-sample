@@ -8,22 +8,6 @@
 		<data>
 		6J1uNysVXPkg2iEYHwVMZk9znVE=
 		</data>
-		<key>Frameworks/libcrypto.a</key>
-		<data>
-		rwJxCpHpJt9yhZpZZbnTmuOqeT0=
-		</data>
-		<key>Frameworks/libcurl.a</key>
-		<data>
-		TAsptC4wLfgdC7/MtK2xJXny9P8=
-		</data>
-		<key>Frameworks/libnghttp2.a</key>
-		<data>
-		4N5HuiAzAhGBUQXJfnHP2sILLTE=
-		</data>
-		<key>Frameworks/libssl.a</key>
-		<data>
-		i6HyqBCrB9L2xZ1a0jjDlDSAusI=
-		</data>
 		<key>Headers/TNApiGatewayCrypto.h</key>
 		<data>
 		w7lXsFYEyOyPb4O55fqztoAX5Tc=
@@ -88,34 +72,6 @@
 			<key>hash2</key>
 			<data>
 			XkMP713upWxaWO4u7uiWDqmVu79ssDyOahW2IuJ+X0Y=
-			</data>
-		</dict>
-		<key>Frameworks/libcrypto.a</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SEZCepymv35nqp3QcGSYv6in9+cYJ+/L6U6UdrIjapI=
-			</data>
-		</dict>
-		<key>Frameworks/libcurl.a</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Z0uy6auod9kdIKXwZbJnS4QOn0YDnlisBx++zGhtjg0=
-			</data>
-		</dict>
-		<key>Frameworks/libnghttp2.a</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AYaTSAU4wBH86NAFfm/LnrLKIHs7qcki6dRLfq63hCk=
-			</data>
-		</dict>
-		<key>Frameworks/libssl.a</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MSwv6YMd18gbFFkji16e3VFCH0d2nYDdR9gN8aes2BA=
 			</data>
 		</dict>
 		<key>Headers/TNApiGatewayCrypto.h</key>
