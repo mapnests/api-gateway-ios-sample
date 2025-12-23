@@ -10,6 +10,15 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class EncryptionCache : ObjectiveC.NSObject {
+  @objc public static let shared: TNApiGetwaySDK.EncryptionCache
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func getHeaders(forKey key: Swift.String) -> [Swift.String : Swift.String]?
+  #endif
+  @objc public func setHeaders(_ headers: [Swift.String : Swift.String], forKey key: Swift.String)
+  @objc public func clearCache()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class FrameworkConfig {
   public static let shared: TNApiGetwaySDK.FrameworkConfig
   public var json: [Swift.String : Any]

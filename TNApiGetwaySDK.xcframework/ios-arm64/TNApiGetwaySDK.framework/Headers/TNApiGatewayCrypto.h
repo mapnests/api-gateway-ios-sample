@@ -1,11 +1,9 @@
-
 //
-//  TNApiGatewayCrypto.h.swift
+//  TNApiGatewayCrypto.h
 //  TNMapSDK
 //
-//  Created by TechnoNext on 4/12/25.
+//  Created by TechnoNext
 //
-
 
 #import <Foundation/Foundation.h>
 
@@ -13,15 +11,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TNApiGatewayCrypto : NSObject
 
-/// Encrypt jsonString using publicKeyPEM (PEM text OR base64 encoded PEM)
-+ (NSString *)encryptPayload:(NSString *)jsonString
-            withPublicKeyPEM:(NSString *)publicKeyPEM
-                        error:(NSError * _Nullable * _Nullable)error;
+#pragma mark - Public Encrypt Methods
 
-/// Fetches server time from native C++ implementation
+/// Encrypts a JSON string and returns a dictionary containing cf-cid (AES-GCM encrypted message)
+/// and cf-csid (RSA-OAEP encrypted AES key) ready for HTTP headers
++ (NSDictionary<NSString *, NSString *> *)encryptPayloadForHeaders:(NSString *)jsonString
+                                                  withPublicKeyPEM:(NSString *)publicKeyPEM
+                                                              error:(NSError * _Nullable * _Nullable)error;
+
+/// Fetches server time (uses Kronos internally)
 + (NSTimeInterval)fetchServerTime;
 
 @end
 
 NS_ASSUME_NONNULL_END
-

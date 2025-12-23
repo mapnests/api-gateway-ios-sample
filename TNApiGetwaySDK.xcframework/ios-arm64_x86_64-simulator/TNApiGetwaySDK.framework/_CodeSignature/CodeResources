@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TNApiGatewayCrypto.h</key>
 		<data>
-		w7lXsFYEyOyPb4O55fqztoAX5Tc=
+		CpwWlTVzWRKn13gjUXJ9w1QggkQ=
 		</data>
 		<key>Headers/TNApiGetwaySDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tw7ctwqfNk7GfzbO69sKSWfKSO0=
+		FhCKl2J4dev9VvcgnKGKpEkl7kI=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FkYtElzbodYisKVbF/5iKa0zJVQ=
+		tafyXvsuwkK/mqm/L+98Fuq2chI=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FkYtElzbodYisKVbF/5iKa0zJVQ=
+		tafyXvsuwkK/mqm/L+98Fuq2chI=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dbd/gCA9YobusUayUeqGkaagmh0=
+		nwflMgSEFapyc1uyDmnys7Et/Ns=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tw7ctwqfNk7GfzbO69sKSWfKSO0=
+		FhCKl2J4dev9VvcgnKGKpEkl7kI=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zokstZ3PvyAXwmjrM59NQQLakbM=
+		sN5PBZ57E+Lv0Pr5rxyVSOo758U=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zokstZ3PvyAXwmjrM59NQQLakbM=
+		sN5PBZ57E+Lv0Pr5rxyVSOo758U=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RlWemxyvt0NRW8rEvZDtRCwa/y8=
+		H8ENrbUSE1CX4p0IuW/wbMpBWdw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OTh+decfdodLunQRgo//aKO/VWhtTgn+BvwncYOBhOo=
+			OfaG7eVx1xpKky7j79uchzhswY18eeymwEf7GM9WZ7w=
 			</data>
 		</dict>
 		<key>Headers/TNApiGetwaySDK.h</key>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+WT6Sn6CO0MbFjcrBt+/MjQT3apzJ5Sy53gci7QnVo=
+			V+KKNC7lbRiBJ7LzeiQxNOmCCBnLoUrdYzZeTSCtTa4=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2xorpGirEmU/x9aZR/8FbOnhqkKscdJWGU6pufHKkBA=
+			VsdAY+czbQ7ch0pK4MIHXpQrxFWQxApMojLSywUaTls=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -113,28 +113,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2xorpGirEmU/x9aZR/8FbOnhqkKscdJWGU6pufHKkBA=
+			VsdAY+czbQ7ch0pK4MIHXpQrxFWQxApMojLSywUaTls=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			llpu6oQ8ZyygQC3Kg63aHR8+OR8adH34k04wsco7Z2o=
+			1wehQpUpjq9U2a49J9gBN5Ev//5ChLF2QPuT1UJ2o2U=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+WT6Sn6CO0MbFjcrBt+/MjQT3apzJ5Sy53gci7QnVo=
+			V+KKNC7lbRiBJ7LzeiQxNOmCCBnLoUrdYzZeTSCtTa4=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O1JHzUa6QBSIwnFc6ToDAa8oatPBdPW236ydN2SjzEs=
+			05YGJ5Mf2zKVok+0bNfAz23hkQz0k+PzH6vG3wwfRFc=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O1JHzUa6QBSIwnFc6ToDAa8oatPBdPW236ydN2SjzEs=
+			05YGJ5Mf2zKVok+0bNfAz23hkQz0k+PzH6vG3wwfRFc=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0naK5+b5ihYOMXzcCPqsSppRVXSDLiZfdu7QmX/MreM=
+			XpdE9vLhc0myEKNLdoSfPfF2+9EqkXTW2Lrtapyq+JM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
