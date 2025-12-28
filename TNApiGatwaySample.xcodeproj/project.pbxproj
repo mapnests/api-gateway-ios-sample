@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C28EDD012EFA67160073C726 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28EDD002EFA67160073C726 /* TNApiGetwaySDK.xcframework */; };
+		C214D6452F012B0300FE2389 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214D6442F012B0300FE2389 /* TNApiGetwaySDK.xcframework */; };
 		C2F7E97D2EE8574700330F13 /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C2F7E97C2EE8574700330F13 /* bind-client-config.json */; };
 		C2F7E98E2EE8585800330F13 /* Kronos in Frameworks */ = {isa = PBXBuildFile; productRef = C2F7E98D2EE8585800330F13 /* Kronos */; };
 /* End PBXBuildFile section */
@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C28EDD002EFA67160073C726 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
+		C214D6442F012B0300FE2389 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
 		C2F7E9562EE8567500330F13 /* TNApiGatwaySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNApiGatwaySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F7E97C2EE8574700330F13 /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28EDD012EFA67160073C726 /* TNApiGetwaySDK.xcframework in Frameworks */,
+				C214D6452F012B0300FE2389 /* TNApiGetwaySDK.xcframework in Frameworks */,
 				C2F7E98E2EE8585800330F13 /* Kronos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +68,7 @@
 		C2F7E94D2EE8567500330F13 = {
 			isa = PBXGroup;
 			children = (
-				C28EDD002EFA67160073C726 /* TNApiGetwaySDK.xcframework */,
+				C214D6442F012B0300FE2389 /* TNApiGetwaySDK.xcframework */,
 				C2F7E97C2EE8574700330F13 /* bind-client-config.json */,
 				C2F7E9582EE8567500330F13 /* TNApiGatwaySample */,
 				C2F7E9572EE8567500330F13 /* Products */,

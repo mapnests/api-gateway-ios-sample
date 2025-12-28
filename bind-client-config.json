@@ -9,5 +9,6 @@
   "hash": "SHA-256",
   "data_identity": "cf-csid",
   "client_identity": "cf-cid",
-  "key_identifier": "cf-kid"
+  "key_identifier": "cf-kid",
+  "platform": "x-client-platform"
 }

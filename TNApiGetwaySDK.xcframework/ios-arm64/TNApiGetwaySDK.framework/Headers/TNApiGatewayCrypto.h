@@ -17,7 +17,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// and cf-csid (RSA-OAEP encrypted AES key) ready for HTTP headers
 + (NSDictionary<NSString *, NSString *> *)encryptPayloadForHeaders:(NSString *)jsonString
                                                   withPublicKeyPEM:(NSString *)publicKeyPEM
+                                                        dataIdentity:(NSString *)dataIdentity
+                                                      clientIdentity:(NSString *)clientIdentity
                                                               error:(NSError * _Nullable * _Nullable)error;
+
 
 /// Fetches server time (uses Kronos internally)
 + (NSTimeInterval)fetchServerTime;

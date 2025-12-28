@@ -1,13 +1,18 @@
 # API Gateway SDK Integration
 
+
+## Changelog (v2.0.0)
+
+- Implemented caching system
+- Changed encryption algorithms
+
 ## Changelog (v1.0.0)
 - Initial integration of the API Gateway SDK.
-- 
 
 ---
 
 ## Onboarding Process
-1. Send email to `apigw@technonext.com` to get `bind_client_config.json`. 
+1. Send email mentioning all of your package names (com.example.debug, com.example.release etc) and send to `apigw@technonext.com` to get `bind-client-config.json`.
 2. Place `bind_client_config.json` in the **root directory** of your project.
 
 
@@ -144,6 +149,12 @@ Check full exmaple under APIURIProtocalDemo.swift
 
 ## Developer Notes
 - Keep package names consistent between JSON and Gradle.
+- HTTPS is preferred. Only enable HTTP with cleartext traffic if necessary.
+- If you receive a 401 error, recheck the app package name and make sure you are using the correct bind-client-config.json file.
+
+## Common Fixes
+- 
+- Check developers note
 
 ---
 
