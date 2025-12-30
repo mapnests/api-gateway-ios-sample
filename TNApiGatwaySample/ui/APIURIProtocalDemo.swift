@@ -73,7 +73,7 @@ class APIURIProtocalDemo: UIViewController {
 
     // MARK: - Button Actions
     @objc private func callApiButtonTapped() {
-        let url = URL(string: "http://192.168.61.103:9080/load-test/api/auth-casbin-success-plugin-test")!
+        let url = URL(string: "http://192.168.169.231:30702/load-test/api/auth-casbin-success-plugin-test")!
         let clientHeaders = [
             "Client-Header-Name1": "xxxxxx",
             "Client-Header-Name2": "yyyyyy"

@@ -2,8 +2,6 @@
 //  TNApiGatewayCrypto.h
 //  TNMapSDK
 //
-//  Created by TechnoNext
-//
 
 #import <Foundation/Foundation.h>
 
@@ -11,18 +9,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TNApiGatewayCrypto : NSObject
 
-#pragma mark - Public Encrypt Methods
+/// Equivalent to nativeGenerateAESKey()
++ (NSString *)generateAESKey;
 
-/// Encrypts a JSON string and returns a dictionary containing cf-cid (AES-GCM encrypted message)
-/// and cf-csid (RSA-OAEP encrypted AES key) ready for HTTP headers
+/// Equivalent to nativeMethod()
 + (NSDictionary<NSString *, NSString *> *)encryptPayloadForHeaders:(NSString *)jsonString
-                                                  withPublicKeyPEM:(NSString *)publicKeyPEM
-                                                        dataIdentity:(NSString *)dataIdentity
-                                                      clientIdentity:(NSString *)clientIdentity
-                                                              error:(NSError * _Nullable * _Nullable)error;
+                                                     publicKeyPEM:(NSString *)publicKeyPEM
+                                                     dataIdentity:(NSString *)dataIdentity
+                                                   clientIdentity:(NSString *)clientIdentity;
 
+/// Equivalent to nativeDataIdentityMethod()
++ (NSString *)encryptAESKey:(NSString *)aesKeyBase64
+               publicKeyPEM:(NSString *)publicKeyPEM;
 
-/// Fetches server time (uses Kronos internally)
+/// Equivalent to nativeClientIdentityMethod()
++ (NSString *)encryptClientPayload:(NSString *)jsonString
+                     aesKeyBase64:(NSString *)aesKeyBase64;
+
+/// Equivalent to nativeGetServerTime()
 + (NSTimeInterval)fetchServerTime;
 
 @end

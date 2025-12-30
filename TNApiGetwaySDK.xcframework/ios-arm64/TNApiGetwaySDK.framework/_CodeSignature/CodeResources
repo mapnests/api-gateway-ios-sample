@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TNApiGatewayCrypto.h</key>
 		<data>
-		lRgcaVgt5/Qn3+OebQR8r7xU/fY=
+		0f15dSbkHIkr4Ofj8MWfESQtcdM=
 		</data>
 		<key>Headers/TNApiGetwaySDK.h</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xOd486UcSAJvi+NJ9BV+Xel5g/A=
+		IAyXBNkouz0YkAxhSw/IETtZaNY=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GwFiMJMt2we2VFLUqV4XVh34eaM=
+		iX8u7/Xt/2DgzuuChO2CPowyBY4=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		F0IJvens1b85QLA4lB4XY/qXZoY=
+		9J4Glo0Vwa4ayF47WRW+xh0fuTo=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GwFiMJMt2we2VFLUqV4XVh34eaM=
+		iX8u7/Xt/2DgzuuChO2CPowyBY4=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GkVowZ3pQCEzSAhT3WOgMgNZcQo=
+		2NwthAWT/+c7nQ0ZirjvAUumDZ0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sv6SCnIuQKIyzGjX2ta+LhFWf0C6oHyMtuuWr5qXaiI=
+			cjOuGHuFEHIi6GBfAkeKPT9CmYOxSaIvDPXZ3Op1h9M=
 			</data>
 		</dict>
 		<key>Headers/TNApiGetwaySDK.h</key>
@@ -72,35 +72,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MBKTgnE1QxTMYjo1o7QCBQ124pU0VxoI14Fkuc3QlhQ=
+			SQ1FZZjiwv3WCS3/4I/7MVsdxOG3fbntuV2EHHy3zyI=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRTLob6nfYlt2JOmrkttGmiHYuRDbeoOInZxsjlAMf0=
+			VJVrKDkpoGc5ECsDyZ2x8KxaGd57PZYnXxYQUHfStaI=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4Imx3Q0Kh5fA7XZialobVHhkKnrFlaWxnht6F37us8=
+			t04yNUiM/VV8kA5B3fROxGooIqVgZ9o/mq/+S48DNg4=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRTLob6nfYlt2JOmrkttGmiHYuRDbeoOInZxsjlAMf0=
+			VJVrKDkpoGc5ECsDyZ2x8KxaGd57PZYnXxYQUHfStaI=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aOe1TZM6S7YnFJxfX36toBmom/nzAAriRS31BN/Nyag=
+			8/Za8Hzhb88GitD0DRpdl3g90rXzhqyrtlXPRLcHavs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
