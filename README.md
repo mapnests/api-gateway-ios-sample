@@ -1,6 +1,11 @@
 # API Gateway SDK Integration
 
 
+## Changelog (v3.0.0)
+
+- remove kronos lib
+
+
 ## Changelog (v2.0.0)
 
 - Implemented caching system
@@ -19,7 +24,6 @@
 ### 2. Configure Build Settings
 
 1. Drag and drop the `TNApiGetwaySDK.xcframework` into your project’s **Project Navigator** (e.g., into a `Frameworks` group). 
-2. Add Kronos 4.4 using Swift Package Manager:  `https://github.com/MobileNativeFoundation/Kronos.git`
 2. Select your project in Xcode → **Target** → **General** tab.
 3. Scroll down to **Frameworks, Libraries, and Embedded Content**.
 4. Click the **+** button → Add `TNApiGetwaySDK.xcframework`.
