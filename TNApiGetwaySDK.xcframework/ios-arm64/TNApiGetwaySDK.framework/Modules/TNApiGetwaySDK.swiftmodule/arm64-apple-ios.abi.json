@@ -15,6 +15,198 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TNApiGetwaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiGatewayHeaderProvider",
+        "printedName": "ApiGatewayHeaderProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiGatewayHeaderProvider",
+                "printedName": "TNApiGetwaySDK.ApiGatewayHeaderProvider",
+                "usr": "c:@M@TNApiGetwaySDK@objc(cs)ApiGatewayHeaderProvider"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TNApiGetwaySDK@objc(cs)ApiGatewayHeaderProvider(cpy)shared",
+            "mangledName": "$s14TNApiGetwaySDK24ApiGatewayHeaderProviderC6sharedACvpZ",
+            "moduleName": "TNApiGetwaySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiGatewayHeaderProvider",
+                    "printedName": "TNApiGetwaySDK.ApiGatewayHeaderProvider",
+                    "usr": "c:@M@TNApiGetwaySDK@objc(cs)ApiGatewayHeaderProvider"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TNApiGetwaySDK@objc(cs)ApiGatewayHeaderProvider(cm)shared",
+                "mangledName": "$s14TNApiGetwaySDK24ApiGatewayHeaderProviderC6sharedACvgZ",
+                "moduleName": "TNApiGetwaySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getHeaders",
+            "printedName": "getHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TNApiGetwaySDK@objc(cs)ApiGatewayHeaderProvider(im)getHeaders",
+            "mangledName": "$s14TNApiGetwaySDK24ApiGatewayHeaderProviderC10getHeadersSDyS2SGyF",
+            "moduleName": "TNApiGetwaySDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TNApiGetwaySDK@objc(cs)ApiGatewayHeaderProvider",
+        "mangledName": "$s14TNApiGetwaySDK24ApiGatewayHeaderProviderC",
+        "moduleName": "TNApiGetwaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TNApiGetwaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Config",
         "printedName": "Config",
@@ -505,7 +697,8 @@
               "Dynamic",
               "ObjC",
               "Override",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -659,6 +852,7 @@
         "moduleName": "TNApiGetwaySDK",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSURLProtocol",
@@ -1175,7 +1369,7 @@
     {
       "filePath": "\/Users\/technonext\/tn\/vcs\/api-gatway-ios-library \/TNApiGetwaySDK\/FrameworkProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 114,
+      "offset": 121,
       "length": 19,
       "value": "\"FrameworkProtocol\""
     },

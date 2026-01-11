@@ -37,6 +37,12 @@ class ClientNetworkProtocol: URLProtocol {
         // 🔥 Important: DO NOT remove protocolClasses
         // This keeps FrameworkProtocol alive in the chain
 
+        let headers = ApiGatewayHeaderProvider.shared.getHeaders()
+        headers.forEach { key, value in
+            print("Key -> \(key): Value -> \(value)\n")
+
+        }
+
         let config = URLSessionConfiguration.default
         config.protocolClasses = [
             ClientNetworkProtocol.self,
