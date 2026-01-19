@@ -68,3 +68,5 @@ playground.xcworkspace
 
 # Symbol graphs
 *.symbols.json
+
+bind-client-config.json

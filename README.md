@@ -1,5 +1,9 @@
 # API Gateway SDK Integration
 
+
+## Changelog (v4.0.0)
+- Performance improvement & algorithm update
+
 ## Changelog (v3.0.1)
 - Refactored internal code for improved readability and maintainability 
 

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TNApiGatewayCrypto.h</key>
 		<data>
-		0f15dSbkHIkr4Ofj8MWfESQtcdM=
+		RKWRtfupzFqmOExlgERAivlwiQk=
 		</data>
 		<key>Headers/TNApiGetwaySDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fqlC2GoUiC4stUiXo0ZGohr+b0w=
+		TFub76JQblJan1RVel6n/0YBvBU=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YnsvzOMgUhqg0/HRyFWutfJSURY=
+		OyDT6Ws6I57uUlXutI6+xq3GEUc=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0PkdAV3pD0YCEemt4sijFmwQFWg=
+		eKTk6BIJT6aMt+Yu/4cef1Y59IY=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YnsvzOMgUhqg0/HRyFWutfJSURY=
+		OyDT6Ws6I57uUlXutI6+xq3GEUc=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kO/OnyIqTwdv/8Q/bKocfRrjZeg=
+		xQ7g3ny7NFw/G/7CNyK8GK9nGFQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cjOuGHuFEHIi6GBfAkeKPT9CmYOxSaIvDPXZ3Op1h9M=
+			PYtMLHutitjnQ+dA7KVHwzaVCHcOI23u5StI1hMHuak=
 			</data>
 		</dict>
 		<key>Headers/TNApiGetwaySDK.h</key>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			moviu3Sjb6ZPjcqxqMbwtA2gJsmutlo79gFaxzqgEOY=
+			kRhtERXyvExzeWGowARbA3KOqE6qD2Z4cUjfluMXmwA=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -120,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dK2rdJDZTgTLA4j86N3BALWBzzpVh3HKx3L5oFQ5Ofc=
+			ADvsVBcsw2vVtwf2U1rxn5gHPR++gkGQLaCIG+pNpB4=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			moviu3Sjb6ZPjcqxqMbwtA2gJsmutlo79gFaxzqgEOY=
+			kRhtERXyvExzeWGowARbA3KOqE6qD2Z4cUjfluMXmwA=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KUk2/ZAv+QTeRlbTO4EQPcjeTcDrpTmTARPWrEno28U=
+			ltiKs6rnrXp4y+XzNdOuJct/wWhjF+NNwUBXzhooahU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
