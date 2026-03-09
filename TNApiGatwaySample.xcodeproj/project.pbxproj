@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C263D2752F1FADA50083343F /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C263D2742F1FADA50083343F /* TNApiGetwaySDK.xcframework */; };
+		C25F57FB2F5E830F008366B4 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25F57FA2F5E830F008366B4 /* TNApiGetwaySDK.xcframework */; };
 		C2F7E97D2EE8574700330F13 /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C2F7E97C2EE8574700330F13 /* bind-client-config.json */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C263D2742F1FADA50083343F /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
+		C25F57FA2F5E830F008366B4 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
 		C2F7E9562EE8567500330F13 /* TNApiGatwaySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNApiGatwaySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F7E97C2EE8574700330F13 /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C263D2752F1FADA50083343F /* TNApiGetwaySDK.xcframework in Frameworks */,
+				C25F57FB2F5E830F008366B4 /* TNApiGetwaySDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 		C2F7E94D2EE8567500330F13 = {
 			isa = PBXGroup;
 			children = (
-				C263D2742F1FADA50083343F /* TNApiGetwaySDK.xcframework */,
+				C25F57FA2F5E830F008366B4 /* TNApiGetwaySDK.xcframework */,
 				C2F7E97C2EE8574700330F13 /* bind-client-config.json */,
 				C2F7E9582EE8567500330F13 /* TNApiGatwaySample */,
 				C2F7E9572EE8567500330F13 /* Products */,
@@ -306,7 +306,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
@@ -353,7 +353,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;

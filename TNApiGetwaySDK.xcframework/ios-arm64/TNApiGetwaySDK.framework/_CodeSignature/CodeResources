@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R3pBnMrKGriB0/eMMc7GdUR74vk=
+		14xsg4oaooSE9kalh+lfkewZnRk=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		96oW6OZ0s8+IvKBLyF4LRlLJEPA=
+		ZCaemzYY2xtYQoxZkxk905aiQXY=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		9J4Glo0Vwa4ayF47WRW+xh0fuTo=
+		K29vBRzMNMW2KA0qfThEJv4O5Ow=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		96oW6OZ0s8+IvKBLyF4LRlLJEPA=
+		ZCaemzYY2xtYQoxZkxk905aiQXY=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		V7H6+tRNAtulXJm/SNkIYT2FXEw=
+		90D9IgageSgSXO4gGqCyBmhQtjU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,28 +79,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OLLLj9fG9fBVupNelD0itU53EpS2jxbEgMBfjCMfwd4=
+			ZQe7kdKarKiwPcBz8OX2MdYfKjkzah9aaIiI8u/ZjF8=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t04yNUiM/VV8kA5B3fROxGooIqVgZ9o/mq/+S48DNg4=
+			j9Bg24LFDYwwdWJu3GkbD9yucWsVo1FSDNr7bS6GgDE=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OLLLj9fG9fBVupNelD0itU53EpS2jxbEgMBfjCMfwd4=
+			ZQe7kdKarKiwPcBz8OX2MdYfKjkzah9aaIiI8u/ZjF8=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lqggZJICV5jfWuMzfL3+Ll7w+6BnJt61FAzIfeyrDAo=
+			nYFvRTLt3wc4TNkVz7ZJhdds7RXV1FAygQU8RYIAw+w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

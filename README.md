@@ -1,5 +1,7 @@
 # API Gateway SDK Integration
 
+## Changelog (v4.0.1)
+- Updated minimum iOS deployment target to 15.0 for the SDK framework.
 
 ## Changelog (v4.0.0)
 - Performance improvement & algorithm update
