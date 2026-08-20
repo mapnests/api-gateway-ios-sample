@@ -18,31 +18,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		14xsg4oaooSE9kalh+lfkewZnRk=
+		GAOChFJpyKvZ2W9irSsoBR4m/Ec=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		OyDT6Ws6I57uUlXutI6+xq3GEUc=
+		XXVAtS+FbbeMC8T/AIPWHxgiMYM=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZCaemzYY2xtYQoxZkxk905aiQXY=
+		77tfvf0ShrK/b+/7gCkTgo7QopA=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		K29vBRzMNMW2KA0qfThEJv4O5Ow=
+		X0gUQ4Y0cr3pY5htU0R6/NlIsXQ=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZCaemzYY2xtYQoxZkxk905aiQXY=
+		77tfvf0ShrK/b+/7gCkTgo7QopA=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		90D9IgageSgSXO4gGqCyBmhQtjU=
+		P/vOgzX5jCoqW+rAnvKdMEis+aY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		nsf8srj+nliqvPbnSIxPsj+DSNg=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		J3jCDET/Yn1lAQbrw44v61PrV7c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -72,35 +76,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kRhtERXyvExzeWGowARbA3KOqE6qD2Z4cUjfluMXmwA=
+			vpstNRNqQ8dzC8mA/vnEWcwP+8VOZ0yTRThWoOB50Ss=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQe7kdKarKiwPcBz8OX2MdYfKjkzah9aaIiI8u/ZjF8=
+			B/MMTwDbE639cQzB8yYSxTkYdGA9JgC7QWADYBKEprs=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j9Bg24LFDYwwdWJu3GkbD9yucWsVo1FSDNr7bS6GgDE=
+			TG82OKvmG2vYWyerr4vPTT7QlfE3BMphKmYfZW3HrEM=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQe7kdKarKiwPcBz8OX2MdYfKjkzah9aaIiI8u/ZjF8=
+			B/MMTwDbE639cQzB8yYSxTkYdGA9JgC7QWADYBKEprs=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYFvRTLt3wc4TNkVz7ZJhdds7RXV1FAygQU8RYIAw+w=
+			uV7wEG1DAoLbaTIifIQkf53mhCZ12OwO5LG2V/sVQ80=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -108,6 +112,13 @@
 			<key>hash2</key>
 			<data>
 			zbm/oAAuUIwjSF0maA9De9dORpYgwjlKe5KuXKeeHBc=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uoqz/KkQ0qwvPvJW1epMIycwOnpKXvuSNph/MBjjEfM=
 			</data>
 		</dict>
 	</dict>

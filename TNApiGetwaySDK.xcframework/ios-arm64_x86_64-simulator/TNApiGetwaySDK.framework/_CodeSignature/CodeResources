@@ -18,51 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oCGw/yeqEtunfq/4ODOyFgaOV3k=
+		0nTqIHdunIW0+fDngwLg8OqJVi4=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OyDT6Ws6I57uUlXutI6+xq3GEUc=
+		XXVAtS+FbbeMC8T/AIPWHxgiMYM=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EsUfWvBe4te7kN6/dXFRN/hcWnM=
+		8q5/7FOVhN/uGMIVpZIwe+y56MU=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		psKcd7EA9BsgxVZqeDxqlJDVkt4=
+		1VZqPO89p4lcce8eDIshOAXJNcE=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EsUfWvBe4te7kN6/dXFRN/hcWnM=
+		8q5/7FOVhN/uGMIVpZIwe+y56MU=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H9lDvNk2Lmuyml+BXhkBxq8kfgQ=
+		axg8jv8gujZDONQiZ2dV16PwO6w=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OyDT6Ws6I57uUlXutI6+xq3GEUc=
+		XXVAtS+FbbeMC8T/AIPWHxgiMYM=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		U6mgg1/PBfpgkNF0Px+OfhumYFY=
+		ur6Rnra/x9lLDXPxqGv0wgzqRlE=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Jd5C7pXFtqBXXk6oXRf2OUy7hJU=
+		mWHfiIzwZd/RE2d/MJ8ebhv6RZM=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		U6mgg1/PBfpgkNF0Px+OfhumYFY=
+		ur6Rnra/x9lLDXPxqGv0wgzqRlE=
 		</data>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4vjinIX/Mr8hgbcHZ12horgEpgE=
+		E6M+PWWe1+tPBwEirTyDqoqMe9A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		nsf8srj+nliqvPbnSIxPsj+DSNg=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		J3jCDET/Yn1lAQbrw44v61PrV7c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -92,70 +96,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kRhtERXyvExzeWGowARbA3KOqE6qD2Z4cUjfluMXmwA=
+			vpstNRNqQ8dzC8mA/vnEWcwP+8VOZ0yTRThWoOB50Ss=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IuWbS4KAeHIVl7kDj1nIW6QgvXROBzU1Up6pkWvPF+8=
+			pMwBQx3xaoQYz3+PWbfpkZGYv8bZGvA5XG5BjdeAZKg=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OAwWXzirIUevqeBET+67Wbjq3vyni90O5FFngsU1L40=
+			8eusjHyZkGErEzCgrxmCfI/Pb2SXhR2l9p4bSgwRces=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IuWbS4KAeHIVl7kDj1nIW6QgvXROBzU1Up6pkWvPF+8=
+			pMwBQx3xaoQYz3+PWbfpkZGYv8bZGvA5XG5BjdeAZKg=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dzh2h+GdJG4/bRf165Nxufj+fckienBywjrUcQLJHcU=
+			6Aew4HWl6TtWLqAeldYGItNOH+UkhG4USJ27XPKKDeY=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kRhtERXyvExzeWGowARbA3KOqE6qD2Z4cUjfluMXmwA=
+			vpstNRNqQ8dzC8mA/vnEWcwP+8VOZ0yTRThWoOB50Ss=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c5MxU3NChns0/Sqld3utn1wdmHsuLCKD4TVY8MWVAj8=
+			htBWYZrL5AiiplgOTy2X90EfSvJbEZYtPxy6fsxCltk=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NyPaBinyTA06u6L65Dm/zhCz2+GhQgHXilIWfkJxfpA=
+			LIlUUfQHtbA8zevDB14yM7Qhb6uRC1sL1lw+qcTLcI0=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c5MxU3NChns0/Sqld3utn1wdmHsuLCKD4TVY8MWVAj8=
+			htBWYZrL5AiiplgOTy2X90EfSvJbEZYtPxy6fsxCltk=
 			</data>
 		</dict>
 		<key>Modules/TNApiGetwaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cOetuyZhQHtQAuf30KdITZwim/ufB2IQD7KfLKlnQKk=
+			/2fzaLAKIJDVm8RermrlFp622cbni9LlZ6BKkup+R9I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -163,6 +167,13 @@
 			<key>hash2</key>
 			<data>
 			zbm/oAAuUIwjSF0maA9De9dORpYgwjlKe5KuXKeeHBc=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uoqz/KkQ0qwvPvJW1epMIycwOnpKXvuSNph/MBjjEfM=
 			</data>
 		</dict>
 	</dict>

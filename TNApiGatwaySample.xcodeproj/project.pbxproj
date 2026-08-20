@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C25F57FB2F5E830F008366B4 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25F57FA2F5E830F008366B4 /* TNApiGetwaySDK.xcframework */; };
+		C27ACFBC3036DC8E000F8267 /* TNApiGetwaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27ACFBB3036DC8E000F8267 /* TNApiGetwaySDK.xcframework */; };
 		C2F7E97D2EE8574700330F13 /* bind-client-config.json in Resources */ = {isa = PBXBuildFile; fileRef = C2F7E97C2EE8574700330F13 /* bind-client-config.json */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C25F57FA2F5E830F008366B4 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
+		C27ACFBB3036DC8E000F8267 /* TNApiGetwaySDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:Q79L49XN4F:Kazi Md.  Saidul"; lastKnownFileType = wrapper.xcframework; path = TNApiGetwaySDK.xcframework; sourceTree = "<group>"; };
 		C2F7E9562EE8567500330F13 /* TNApiGatwaySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNApiGatwaySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F7E97C2EE8574700330F13 /* bind-client-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bind-client-config.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25F57FB2F5E830F008366B4 /* TNApiGetwaySDK.xcframework in Frameworks */,
+				C27ACFBC3036DC8E000F8267 /* TNApiGetwaySDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 		C2F7E94D2EE8567500330F13 = {
 			isa = PBXGroup;
 			children = (
-				C25F57FA2F5E830F008366B4 /* TNApiGetwaySDK.xcframework */,
+				C27ACFBB3036DC8E000F8267 /* TNApiGetwaySDK.xcframework */,
 				C2F7E97C2EE8574700330F13 /* bind-client-config.json */,
 				C2F7E9582EE8567500330F13 /* TNApiGatwaySample */,
 				C2F7E9572EE8567500330F13 /* Products */,
@@ -289,7 +289,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q79L49XN4F;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -306,7 +306,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
@@ -336,7 +336,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q79L49XN4F;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -353,7 +353,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
